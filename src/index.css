@@ -1,5 +1,18 @@
 body {
+  background-color: black;
+  color: white;
   margin: 0;
+  height: 100vh;
+    font-weight: 100;
+    background: radial-gradient(#140f30,#0f213b);
+    -webkit-overflow-Y: hidden;
+    -moz-overflow-Y: hidden;
+    -o-overflow-Y: hidden;
+    overflow-y: hidden;
+    -webkit-animation: fadeIn 1 1s ease-out;
+    -moz-animation: fadeIn 1 1s ease-out;
+    -o-animation: fadeIn 1 1s ease-out;
+    animation: fadeIn 1 1s ease-out;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,11 +20,36 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
-.font {
-  color: black;
+/*header*/
+.header-cont {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
+
+.nav-link-cont {
+display: flex;
+gap: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 35px;
+  color: white;
+}
+
+.nav-link:hover {
+  background-color: cadetblue;
+  padding: 5px;
+  transition-duration: .4s;
+}
+
