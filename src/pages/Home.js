@@ -16,7 +16,8 @@ const Home = () => {
       </p>
       </div>
       <p id="showMe" className="show-me-bio">
-        To view my projects, click on the projects page and view my latest work.
+        To view my projects, click on the <Link className="click-link" to="/projects"><span>projects page</span></Link> and explore my latest work.
+        You can get in touch with me through my <Link className="click-link" to="/contact"><span>contact page</span></Link> and leave me a message :)
       </p>
 </main>
 

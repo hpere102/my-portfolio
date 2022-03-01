@@ -3,6 +3,7 @@ body {
   color: white;
   margin: 0;
   height: 100vh;
+  padding: 20px;
     font-weight: 100;
     background: radial-gradient(#140f30,#0f213b);
     -webkit-overflow-Y: hidden;
@@ -26,6 +27,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 
 /*header*/
 .header-cont {
@@ -84,6 +86,7 @@ gap: 30px;
 .show-me-bio {
   font-size: 25px;
   font-weight: 200;
+  width: 50%;
 }
 
 /*footer*/
@@ -119,6 +122,19 @@ justify-content: center;
   to   { opacity: 100%; }
 }
 
+/*misc*/
 span{
-  color: cadetblue;;
+  color: cadetblue;
+  text-decoration: none;
 }
+
+.click-link {
+  text-decoration: none;
+}
+
+.click-link:hover {
+  opacity: 50%;
+  transition-duration: .4s;
+  
+}
+
