@@ -16,6 +16,26 @@ const projects = [
         name:"Weather Dashboard",
         description:"Weather app to track transaction online or offline.",
         github: "https://github.com/hpere102/weather-dashboard",
-        deployed: "https://powerful-coast-68918.herokuapp.com/"
+        deployed: "https://hpere102.github.io/weather-dashboard/"
+    },
+    {
+        name:"Work Day Scheduler",
+        description:"Web app for scheduling tasks with reminders.",
+        github: "https://github.com/hpere102/work-day-scheduler",
+        deployed: "https://hpere102.github.io/work-day-scheduler/"
+    },
+    {
+        name:"Coding Quiz",
+        description:"Online quiz on programming with high scores.",
+        github: "https://github.com/hpere102/code-quiz",
+        deployed: "https://hpere102.github.io/code-quiz/"
+    },
+    {
+        name:"Password Generator",
+        description:"Application for a custom password at the click of a button.",
+        github: "https://github.com/hpere102/code-quiz",
+        deployed: "https://hpere102.github.io/code-quiz/"
     },
 ]
+
+module.exports = projects;
