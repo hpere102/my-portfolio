@@ -53,3 +53,72 @@ gap: 30px;
   transition-duration: .4s;
 }
 
+.home-cont {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 250px;
+}
+
+.intro-cont {
+  
+}
+
+.intro-line{
+  position: relative;
+  top: 50%;  
+  width: 100%;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);   
+  font-size: 35px; 
+  font-weight:350;
+}
+
+.show-me-bio {
+  font-size: 25px;
+  font-weight: 200;
+}
+
+/*footer*/
+.footer-cont {
+display: flex;
+justify-content: center;
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 1000ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 27em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+#showMe {
+  animation: cssAnimation 3s 5.5s forwards;
+  opacity: 0%;
+  transition-duration: 2s;
+
+  
+  
+}
+
+@keyframes cssAnimation {
+  to   { opacity: 100%; }
+}
+
+span{
+  color: cadetblue;;
+}

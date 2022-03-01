@@ -20,7 +20,7 @@ function App() {
     
       
       
-      <Routes className="switch-margin">
+      <Routes>
 
         <Route exact path="/" element={<Home />} />
         <Route exact path="/skills" element={<Skills />} />
