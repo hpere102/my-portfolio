@@ -18,9 +18,12 @@ export default function ProjectCard({ data }) {
       
     </div>
     <div class="flip-card-back">
-      <h1>John Doe</h1>
-      <p>Architect & Engineer</p>
-      <p>We love that guy</p>
+      <h3>{data.name}</h3>
+      <p>{data.description}</p>
+      <div className="data-row" >
+        <a href={data.github} target="_blank">Github</a>
+        <a href={data.deployed} target="_blank">Deployed</a>
+      </div>
     </div>
   </div>
 </div>
