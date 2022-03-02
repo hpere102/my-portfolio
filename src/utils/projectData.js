@@ -8,13 +8,13 @@ const projects = [
     },
     {
         name:"Budget Tracker",
-        description:"Web app to track transaction online or offline.",
+        description:"Web app to track transactions online or offline.",
         github: "https://github.com/hpere102/budget-tracker",
         deployed: "https://powerful-coast-68918.herokuapp.com/"
     },
     {
         name:"Weather Dashboard",
-        description:"Weather app to track transaction online or offline.",
+        description:"Weather app to view any city's current weather or 5-day forecast.",
         github: "https://github.com/hpere102/weather-dashboard",
         deployed: "https://hpere102.github.io/weather-dashboard/"
     },

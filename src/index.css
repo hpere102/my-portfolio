@@ -6,7 +6,7 @@ body {
   padding: 20px;
   
     font-weight: 100;
-    background: radial-gradient(#242136,#121f31);
+    background: radial-gradient(#242136,#20324d);
     
    
     -webkit-animation: fadeIn 1 1s ease-out;
@@ -179,7 +179,194 @@ margin-top: 80px;
   gap: 90px;
 }
 
-/*card*/
+/*contact*/
+.contact-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 120px;
+  gap: 70px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-left: 10%;
+}
+
+.contact-title {
+  margin-left: var(--spacing-left);
+  margin-right: var(--spacing-right);
+}
+
+.contact-form-cont {
+  background-color: rgb(217, 240, 240);
+  padding: 30px;
+  width: 410px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  color: black;
+  font-weight: 300;
+}
+
+.contact-form-cont h2 {
+  font-size: 25px;
+  margin-bottom: 0%;
+}
+
+.form-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-cont label {
+  font-weight: 300;
+}
+
+.message-area textarea {
+  height: 100px;
+  width: 400px;
+  margin-top: 6px;
+  padding: 5px;
+}
+
+.email-area input {
+  width: 400px;
+  height: 20px;
+  margin-top: 6px;
+  padding-left: 5px;
+}
+
+.name-area input {
+  width: 400px;
+  height: 20px;
+  margin-top: 6px;
+  padding-left: 5px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+ justify-content: center;
+ gap: 15px;
+}
+
+.social-media a {
+  font-size: 30px;
+}
+
+.social-media a:hover {
+  transform: scale(1.3);
+}
+
+.bi-github {
+  color: #000000;
+}
+
+.bi-instagram {
+  color: #d82fb3;
+}
+
+.bi-linkedin {
+  color: rgb(72, 121, 224);
+}
+
+.bi-twitter {
+  color: rgb(50, 144, 233);
+}
+
+.btn-primary {
+  background-color: rgb(76, 114, 116);
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  text-decoration: none !important;
+  cursor: pointer;
+  border: none;
+  padding: 5px;
+  
+}
+
+.btn-primary:hover {
+  transition-duration: .4s;
+  background-color: cadetblue;
+  color: white;
+}
+
+.link-edit{
+  background-color: cadetblue;
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  padding: 8px;
+}
+
+.link-edit:hover {
+opacity: 50%;
+transition-duration: .2s;
+cursor: pointer;
+}
+
+/*about-me*/
+.about-cont {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+
+  justify-content: center;
+  gap: 100px;
+}
+
+.about-bio {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.about-bio p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+
+.about-bio-title {
+  margin-left: var(--spacing-left);
+  margin-right: var(--spacing-right);
+}
+
+.about-bio-title h1 {
+  font-size: 35px;
+  font-style: oblique;
+}
+
+.cat-img {
+  height: 500px;
+}
+
+.margin-p {
+  margin-bottom: 50px;
+}
+
+.link-edit-contact{
+  background-color: cadetblue;
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.link-edit-contact:hover {
+opacity: 50%;
+transition-duration: .2s;
+cursor: pointer;
+}
 
 
 
@@ -224,12 +411,13 @@ margin-top: 90px;
 
 /*misc*/
 span{
-  color: cadetblue;
+  color: rgb(99, 189, 192);
   text-decoration: none;
 }
 
 .click-link {
   text-decoration: none;
+  color:rgb(99, 189, 192)
 }
 
 .click-link:hover {
