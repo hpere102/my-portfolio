@@ -33,8 +33,8 @@ const projects = [
     {
         name:"Password Generator",
         description:"Application for a custom password at the click of a button.",
-        github: "https://github.com/hpere102/code-quiz",
-        deployed: "https://hpere102.github.io/code-quiz/"
+        github: "https://github.com/hpere102/password-generator",
+        deployed: "https://hpere102.github.io/password-generator/"
     },
 ]
 
