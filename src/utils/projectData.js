@@ -10,7 +10,7 @@ const projects = [
         name:"Budget Tracker",
         description:"Web app to track transactions online or offline.",
         github: "https://github.com/hpere102/budget-tracker",
-        deployed: "https://powerful-coast-68918.herokuapp.com/"
+        deployed: "https://budget-tracker-122.herokuapp.com/"
     },
     {
         name:"Weather Dashboard",
