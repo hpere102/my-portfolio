@@ -1,16 +1,16 @@
 const projects = [
 
     {
+        name:"Super Smash Bros DB",
+        description:"Database for super smash bros characters.",
+        github: "https://github.com/hpere102/super-smash-bros-app",
+        deployed: "https://super-smash-bros-db.herokuapp.com/"
+    },
+    {
         name:"goHere",
         description:"Social travel app to log in and view different destinations.",
         github: "https://github.com/sean-elliott-97/GoHere",
         deployed: "https://go-here-app.herokuapp.com/"
-    },
-    {
-        name:"Budget Tracker",
-        description:"Web app to track transactions online or offline.",
-        github: "https://github.com/hpere102/budget-tracker",
-        deployed: "https://budget-tracker-122.herokuapp.com/"
     },
     {
         name:"Weather Dashboard",
@@ -35,6 +35,12 @@ const projects = [
         description:"Application for a custom password at the click of a button.",
         github: "https://github.com/hpere102/password-generator",
         deployed: "https://hpere102.github.io/password-generator/"
+    },
+    {
+        name:"Budget Tracker",
+        description:"Web app to track transactions online or offline.",
+        github: "https://github.com/hpere102/budget-tracker",
+        deployed: "https://budget-tracker-122.herokuapp.com/"
     },
 ]
 
