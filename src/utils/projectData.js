@@ -4,7 +4,7 @@ const projects = [
         name:"Super Smash Bros DB",
         description:"Database for super smash bros characters.",
         github: "https://github.com/hpere102/super-smash-bros-app",
-        deployed: "https://super-smash-bros-db.herokuapp.com/"
+        deployed: "https://super-smash-bros-db.netlify.app/"
     },
     {
         name:"goHere",

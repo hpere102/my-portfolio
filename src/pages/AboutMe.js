@@ -36,7 +36,7 @@ function AboutMe() {
          </div>
         
         <div className="about-img-cont">
-        <img className="cat-img" src={Cat} />
+        <img alt="cat-image" className="cat-img" src={Cat} />
         </div>
       </section>
   );
