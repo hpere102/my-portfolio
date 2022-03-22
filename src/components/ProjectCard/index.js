@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 
 
 
@@ -21,8 +21,8 @@ export default function ProjectCard({ data }) {
       <h3>{data.name}</h3>
       <p>{data.description}</p>
       <div className="data-row" >
-        <a href={data.github} target="_blank">Github</a>
-        <a href={data.deployed} target="_blank">Deployed</a>
+        <a href={data.github} target="_blank"  rel="noreferrer">Github</a>
+        <a href={data.deployed} target="_blank"  rel="noreferrer">Deployed</a>
       </div>
     </div>
   </div>

@@ -2,7 +2,6 @@ import React, { useState,  } from 'react';
 import { validateEmail } from '../utils/helpers';
 import "bootstrap-icons/font/bootstrap-icons.css";
 
-import { Link } from 'react-router-dom';
 
 
 function Contact() {
@@ -54,14 +53,14 @@ function Contact() {
               <p class="lead"></p>
             </div>
             <div className="social-media">
-            <a target="_blank" href="https://github.com/hpere102"><i class="bi-github"></i></a>
-            <a target="_blank" href="https://linkedin.com/in/hector-daniel-perez-631283179"><i class="bi-linkedin"></i></a>
-            <a target="_blank" href="https://instagram.com/"><i class="bi-instagram"></i></a>
-            <a target="_blank" href="https://twitter.com/"><i class="bi-twitter"></i></a>
+            <a target="_blank"  rel="noreferrer" href="https://github.com/hpere102"><i class="bi-github"></i></a>
+            <a target="_blank"  rel="noreferrer" href="https://linkedin.com/in/hector-daniel-perez-631283179"><i class="bi-linkedin"></i></a>
+            <a target="_blank"  rel="noreferrer" href="https://instagram.com/"><i class="bi-instagram"></i></a>
+            <a target="_blank"  rel="noreferrer" href="https://twitter.com/"><i class="bi-twitter"></i></a>
             </div>
             <div className="resume-cont">
               <h4>Want to download my resume?</h4>
-              <a className="link-edit" role="button">
+              <a href={require("../files/hector-perez-resume.pdf")} download="hector-perez-resume" className="link-edit" role="button">
                   Download Resume
               </a>
               </div>
