@@ -1,5 +1,10 @@
 const projects = [
-
+    {
+        name:"RPG Game DEMO Version",
+        description:"Top down rpg game where character spawns on an island.",
+        github: "https://github.com/hpere102/rpg-game",
+        deployed: "https://hpere102.github.io/rpg-game/"
+    },
     {
         name:"Super Smash Bros DB",
         description:"Database for super smash bros characters.",
